@@ -19,8 +19,6 @@ function activateSubmenu(row) {
         height = $menu.outerHeight(),
         width = $menu.outerWidth();
 
-    console.log($row);
-
     // Show the submenu
     $submenu.css({
         display: "block",
@@ -53,6 +51,6 @@ $(".dropdown-menu li").click(function(e) {
 $(document).click(function() {
     // Simply hide the submenu on any click. Again, this is just a hacked
     // together menu/submenu structure to show the use of jQuery-menu-aim.
-    $(".popover").css("display", "none");
+    $(".submenu").css("display", "none");
     $("a.maintainHover").removeClass("maintainHover");
 });
