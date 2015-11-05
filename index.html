@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cascading menu curse: dispelled</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="credits">
+            ELEC-E7850 User Interfaces, Period II/2015<br>
+            Student no. <b>547961</b>
+        </div>
+        <h3>Try this cascading menu</h3>
+        <ul id="menu" class="nav navbar-nav">
+          <li role="presentation" class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+              Choose your Pets <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu" role="menu">                        
+                <li class="dropdown-submenu" data-submenu-id="submenu-dogs">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dogs</a>
+                    <ul id="submenu-dogs" class="dropdown-menu">
+                        <li><a href="#">Samoyed</a></li>
+                        <li><a href="#">Husky</a></li>
+                        <li><a href="#">Pomeranian</a></li>
+                        <li><a href="#">Golden Retriever</a></li>
+                        <li><a href="#">Shiba Inu</a></li>
+                        <li><a href="#">Alaskan Malamute</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-submenu" data-submenu-id="submenu-cats">
+                    <a href="#">Cat</a>
+                    <ul id="submenu-cats" class="dropdown-menu">
+                        <li><a href="#">Persian</a></li>                    
+                        <li><a href="#">Siamese</a></li>
+                        <li><a href="#">Abysssinian</a></li>
+                        <li><a href="#">American Shorthair</a></li>
+                        <li><a href="#">Ragdoll</a></li>
+                        <li><a href="#">Bengal</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-submenu" data-submenu-id="submenu-hamsters">
+                    <a href="#">Hamster</a>
+                    <ul id="submenu-hamsters" class="dropdown-menu">
+                        <li><a href="#">Djungarian</a></li>                    
+                        <li><a href="#">Golden</a></li>
+                        <li><a href="#">Chinese</a></li>
+                        <li><a href="#">European</a></li>
+                        <li><a href="#">Cricetulus</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-submenu" data-submenu-id="submenu-rabbits">
+                    <a href="#">Rabbit</a>
+                    <ul id="submenu-rabbits" class="dropdown-menu">
+                        <li><a href="#">English Angora</a></li> 
+                        <li><a href="#">French Angora</a></li>
+                        <li><a href="#">American Sable</a></li>
+                        <li><a href="#">American Fuzzy Lop</a></li>
+                        <li><a href="#">Beveren</a></li>                    
+                    </ul>
+                </li>
+                <li class="dropdown-submenu" data-submenu-id="submenu-horses">
+                    <a href="#">Horse</a>
+                    <ul id="submenu-horses" class="dropdown-menu">
+                        <li><a href="#">Friesian</a></li>                    
+                        <li><a href="#">Thoroughbred</a></li>
+                        <li><a href="#">Mustang</a></li>
+                        <li><a href="#">Shire</a></li>
+                        <li><a href="#">Shetland</a></li>
+                        <li><a href="#">Percheron</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-submenu" data-submenu-id="submenu-fish">
+                    <a href="#">Fish</a>
+                    <ul id="submenu-fish" class="dropdown-menu">
+                        <li class="dropdown-submenu" data-submenu-id="submenu-goldfish">
+                            <a href="#">Goldfish</a>
+                            <ul id="submenu-goldfish" class="dropdown-menu">
+                                <li><a href="#">Comet Goldfish</a></li>
+                                <li><a href="#">Oranda Goldfish</a></li>
+                                <li><a href="#">Lionhead Goldfish</a></li>
+                            </ul>
+                        </li> 
+                        <li class="dropdown-submenu" data-submenu-id="submenu-shark">
+                            <a href="#">Shark</a>
+                            <ul id="submenu-shark" class="dropdown-menu">
+                                <li><a href="#">Bahamas Sawshark</a></li>
+                                <li><a href="#">Bigeye Sixgill Shark</a></li>
+                                <li><a href="#">Blacktip Reef Shark</a></li>
+                                <li><a href="#">Carribbean Reef Shark</a></li>
+                                <li><a href="#">Silky Shark</a></li>                            
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown-submenu" data-submenu-id="submenu-birds">
+                    <a href="#">Bird</a>
+                    <ul id="submenu-bird" class="dropdown-menu">
+                        <li><a href="#">Parrot</a></li> 
+                        <li><a href="#">Eagle</a></li>
+                        <li><a href="#">Owl</a></li>
+                    </ul>
+                </li> 
+                <li class="dropdown-submenu" data-submenu-id="submenu-lizard">
+                    <a href="#">Lizard</a>
+                    <ul id="submenu-lizard" class="dropdown-menu">
+                        <li><a href="#">Chameleon</a></li>
+                        <li><a href="#">Gecko</a></li>
+                        <li><a href="#">Iguanids</a></li>                    
+                    </ul>
+                </li>
+                <li class="dropdown-submenu" data-submenu-id="submenu-snakes">
+                    <a href="#">Snakes</a>
+                    <ul id="submenu-snakes" class="dropdown-menu">
+                        <li><a href="#">Rough green</a></li>
+                        <li><a href="#">Python</a></li>
+                        <li><a href="#">Corn snake</a></li>                    
+                    </ul>
+                </li>
+                <li class="dropdown-submenu" data-submenu-id="submenu-arachnids">
+                    <a href="#">Arachnids</a>
+                    <ul id="submenu-arachnids" class="dropdown-menu">
+                        <li><a href="#">Tarantula</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-submenu" data-submenu-id="submenu-turtles">
+                    <a href="#">Turtles</a>
+                    <ul id="submenu-turtles" class="dropdown-menu">
+                        <li><a href="#">Eastern Box</a></li>
+                        <li><a href="#">Florida Box</a></li>
+                        <li><a href="#">Ringed Map</a></li>
+                        <li><a href="#">Painted</a></li>
+                    </ul>
+                </li>
+            </ul>        
+          </li>
+        </ul>
+    </div>
+    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.menu-aim.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>
